@@ -5,13 +5,16 @@ using namespace std;
 
 class chessPiece {
     public:
-        void setTaken(bool taken);
+        chessPiece(string id, string name, bool isWhite);
+
         bool getTaken();
+        void setTaken(bool taken);
 
         string getId();
 
     private:
         string name;
         string id;
-        bool isTaken;
+        bool isWhite;
+        bool isTaken = false;
 };

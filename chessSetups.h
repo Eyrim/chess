@@ -5,5 +5,5 @@ using namespace std;
 
 class chessSetups {
     public:
-        chessBoard& standardSetup(chessBoard& board);
+        void standardSetup(chessBoard& board);
 };

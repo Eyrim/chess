@@ -1,4 +1,4 @@
-#include "chessBoard.h"
+#include "chessSquare.h"
 
 void chessSquare::setPiece(chessPiece piece) {
     this->piece = piece;

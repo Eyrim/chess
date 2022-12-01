@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include "chessPiece.h"
 
 using namespace std;
 

@@ -8,12 +8,14 @@ using namespace std;
 
 class chessBoard {
     public:
+        chessBoard();
+
         void putPiece(chessPiece piece, int x, int y);
         void takePiece(int x, int y);
         void takePiece(string id);
 
     private:
-        chessPiece findPieceFromId(string id);
+        chessPiece* findPieceFromId(string id);
 
         chessSquare board[8][8];
 };
